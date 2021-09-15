@@ -1,0 +1,46 @@
+{
+  "responsive-layout.desktop": {
+    "children": [
+      "info-card#first-promo-desktop",
+      "flex-layout.row#about-desktop"
+    ]
+  },
+  "info-card#first-promo-desktop": {
+    "props": {
+      "marginTop": 0,
+      "isFullModeStyle": true,
+      "textPosition": "right",
+      "imageUrl": "https://www.divermidia.com.br/img/servicos/marketing_digital/mkt_digital.png",
+      "headline": "Obtenha MAIS por MENOS <br>com SIMPLICIDADE",
+      "subhead": "Vamos fazer algo juntos?",
+      "callToActionText": "Quero saber mais!",
+      "callToActionUrl": "https://tibia.com/",
+      "textAlignment": "center",
+      "blockClass": "CTA"
+    }
+  },
+  "flex-layout.row#about-desktop": {
+    "children": ["flex-layout.col#about-desktop", "image#about-right-desktop"]
+  },
+  "flex-layout.col#about-desktop": {
+    "children": ["rich-text#title-desktop", "rich-text#description-desktop"]
+  },
+  "rich-text#title-desktop": {
+    "props": {
+      "text": "****BEM-VINDO AO FUTURO DA AUTOMAÇÃO DE MARKETING E VENDAS COM I.A.****",
+      "textPosition": "CENTER",
+      "textAlignmnet": "CENTER"
+    }
+  },
+  "rich-text#description-desktop": {
+    "props": {
+      "text": "*Pare de desperdiçar horas no Google e Facebook em busca de oportunidades de otimização. A Tess analisa milhões de dados todos os dias para recomendar as melhores otimizações para você.*",
+      "textAlignmnet": "CENTER"
+    }
+  },
+  "image#about-right-desktop": {
+    "props": {
+      "src": "http://williamsbarros.com.br/wp-content/uploads/2018/04/Unsplash-BANCOS-DE-IMAGENS-GR%C3%81TIS-PARA-VOC%C3%8A-UTILIZAR-EM-SEUS-ARTIGOS-AN%C3%9ANCIOS-E-POSTAGENS.jpg"
+    }
+  }
+}

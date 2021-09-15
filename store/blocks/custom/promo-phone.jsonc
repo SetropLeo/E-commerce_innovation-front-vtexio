@@ -1,0 +1,56 @@
+{
+  "responsive-layout.phone": {
+    "children": ["flex-layout.row#first-text", "info-card#first-CTA-phone", "rich-text#description-phone"]
+  },
+  "flex-layout.row#first-promo": {
+    "children": ["info-card#first-promo-phone", "rich-text#title-phone"],
+    "props": {
+      "width": "100%"
+    }
+  },
+  "flex-layout.row#initial-phone": {
+    "children": ["rich-text#first-title-phone", "rich-text#first-content-phone"]
+  },
+  "rich-text#first-title-phone": {
+    "props": {
+      "text": "****obtenha MAIS<br>por MENOS<br>com SIMPLICIDADE****",
+      "textPosition": "center",
+      "textAlignmnet": "center"
+    }
+  },
+  "rich-text#first-content-phone": {
+    "props": {
+      "text": "Vamos fazer algo juntos?",
+      "textPosition": "center",
+      "textAlignmnet": "center"
+    }
+  },
+  "info-card#first-CTA-phone": {
+    "props": {
+      "subhead": "Vamos fazer algo juntos?",
+      "callToActionText": "Quero saber mais!",
+      "callToActionUrl": "https://tibia.com/",
+      "blockClass": "CTA"
+    }
+  },
+  "rich-text#title-phone": {
+    "props": {
+      "text": "****BEM-VINDO AO FUTURO DA AUTOMAÇÃO DE MARKETING E VENDAS COM I.A.****",
+      "textPosition": "center",
+      "textAlignmnet": "center"
+    }
+  },
+  "rich-text#description-phone": {
+    "props": {
+      "text": "*Pare de desperdiçar horas no Google e Facebook em busca de oportunidades de otimização. A Tess analisa milhões de dados todos os dias para recomendar as melhores otimizações para você.*",
+      "textPosition": "center",
+      "textAlignmnet": "center"
+    }
+  },
+  "image#about-right-phone": {
+    "props": {
+      "src": "http://williamsbarros.com.br/wp-content/uploads/2018/04/Unsplash-BANCOS-DE-IMAGENS-GR%C3%81TIS-PARA-VOC%C3%8A-UTILIZAR-EM-SEUS-ARTIGOS-AN%C3%9ANCIOS-E-POSTAGENS.jpg",
+      "maxWidth": "100%"
+    }
+  }
+}

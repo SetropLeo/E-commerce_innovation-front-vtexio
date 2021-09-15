@@ -1,0 +1,9 @@
+{
+  "store.custom#promo": {
+    "blocks": [
+      "responsive-layout.desktop",
+      "responsive-layout.tablet",
+      "responsive-layout.phone"
+    ]
+  }
+}
