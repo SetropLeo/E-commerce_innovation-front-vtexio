@@ -8,16 +8,19 @@
       "rich-text#second-description-desktop",
       "rich-text#third-description-desktop",
       "slider-layout#home-desktop",
-      "rich-text#second-title-desktop",
       "flex-layout.row#solutions1-grid-desktop",
-      "image#about-right-desktop"
+      "info-card#diagnostico",
+      "info-card#planejamento",
+      "info-card#definicao",
+      "info-card#mapeamento",
+      "info-card#implementacao"
     ]
   },
   "image#marketing-digital-desktop": {
     "props": {
       "src": "https://www.divermidia.com.br/img/servicos/marketing_digital/mkt_digital.png",
       "width": "100%",
-      "height": 300
+      "height": 325
     }
   },
   "info-card#first-CTA-desktop": {
@@ -65,7 +68,7 @@
       "text": "Quando falamos de aumentar nossa rede, fortalecer a nossa marca e realizar melhores vendas, todos esses são objetivos em que o Marketing Digital é uma importante ferramenta para alcançá-los. Portanto, pare de desperdiçar horas no Google e Facebook em busca de oportunidades de otimização. Forneça informações objetivas e focadas na performance de forma a observar e testar a efetividade das nossas ações ",
       "textPosition": "CENTER",
       "textAlignment": "CENTER",
-      "blockClass": "description"
+      "blockClass": "description-last"
     }
   },
 
@@ -74,22 +77,16 @@
       "image#brand1-desktop",
       "image#brand2-desktop",
       "image#brand3-desktop",
-      "image#brand4-desktop"
+      "image#brand4-desktop",
+      "image#brand5-desktop",
+      "image#brand6-desktop"
     ],
     "props": {
       "autoplay": {
         "timeout": 2500,
         "stopOnHover": true
-      }
-    }
-  },
-
-  "rich-text#second-title-desktop": {
-    "props": {
-      "text": "NOSSOS SERVIÇOS",
-      "textPosition": "CENTER",
-      "textAlignment": "CENTER",
-      "blockClass": "second-title"
+      },
+      "blockClass": "slider-layout-desktop"
     }
   },
 
@@ -111,6 +108,16 @@
   "image#brand4-desktop": {
     "props": {
       "src": "https://jobcontent.com.br/wp-content/uploads/2018/10/Ferramentas-de-Marketing-Digital-e-suas-integracoes-1280x720.jpg"
+    }
+  },
+  "image#brand5-desktop": {
+    "props": {
+      "src": "data:image/png;base64,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"
+    }
+  },
+  "image#brand6-desktop": {
+    "props": {
+      "src": "https://blog.runrun.it/wp-content/uploads/2018/04/02_04_gestao_mkt_blog-1280x720.png"
     }
   },
 
@@ -165,11 +172,75 @@
     }
   },
 
-  "image#about-right-desktop": {
+  "info-card#diagnostico": {
     "props": {
-      "src": "https://images.squarespace-cdn.com/content/v1/5cf68a202bff5400011e5737/1561587420373-LWFIBVEIFLNJ7LOBGFBU/contact-tonya-dalton-website-book-speaking.jpg?format=2500w",
-      "width": "100%",
-      "height": 250
+      "isFullModeStyle": false,
+      "imageUrl": "https://vooozer.com/wp-content/uploads/2018/07/funil-de-conversao-1-1280x720.png",
+      "headline": "DIAGNÓSTICO DE MARKETING DIGITAL",
+      "subhead": "Analisamos o funil de vendas da empresa com o objetivo de obter um panorama geral e colher dados necessários para implementarmos um plano de ação efetivo.",
+      "callToActionMode": "",
+      "callToActionText": "Funil de Vendas",
+      "callToActionUrl": "/sale/d",
+      "textAlignment": "center",
+      "textPosition": "left",
+      "blockClass": "CTA--fases"
+    }
+  },
+  "info-card#planejamento": {
+    "props": {
+      "isFullModeStyle": false,
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5cf68a202bff5400011e5737/1561587420373-LWFIBVEIFLNJ7LOBGFBU/contact-tonya-dalton-website-book-speaking.jpg?format=2500w",
+      "headline": "PLANEJAMENTO DO MARKETING DIGITAL",
+      "subhead": "Identificamos os maiores problemas em cada etapa do funil, alinhamos os objetivos e criamos a estratégia ideal para alcançá-los. Nesta etapa, auxiliamos o cliente a traçar seus objetivos e metas. Toda a estratégia será modulada com base nessa definição. Desta forma, focamos os esforços nos elementos fundamentais do projeto, reduzindo o tempo médio de retorno do investimento.",
+      "callToActionMode": "",
+      "callToActionText": "Criação de estratégias",
+      "callToActionUrl": "/sale/d",
+      "textAlignment": "center",
+      "textPosition": "right",
+      "blockClass": "CTA--fases",
+      "marginTop": 5
+    }
+  },
+  "info-card#definicao": {
+    "props": {
+      "isFullModeStyle": false,
+      "imageUrl": "https://skillmarketing.com.br/wp-content/uploads/2020/01/blogpersona.png",
+      "headline": "DEFINIÇÃO DE PERSONAS",
+      "subhead": "Entendemos profundamente o perfil e o comportamento do consumidor. Ideal customer profile, ou persona, é a representação fictícia do seu cliente ideal. Ela é baseada em dados reais sobre comportamento e características demográficas dos seus clientes, assim como uma criação de suas histórias pessoais, motivações, objetivos, desafios e preocupações.",
+      "callToActionMode": "",
+      "callToActionText": "Criação de personas",
+      "callToActionUrl": "/sale/d",
+      "textAlignment": "center",
+      "textPosition": "left",
+      "blockClass": "CTA--fases"
+    }
+  },
+  "info-card#mapeamento": {
+    "props": {
+      "isFullModeStyle": false,
+      "imageUrl": "https://viverdeblog.com/wp-content/uploads/2017/08/comunicacao-integrada-de-marketing-001.png",
+      "headline": "MAPEAMENTO DA JORNADA DE COMPRA",
+      "subhead": "Analisamos como o consumidor pensa, pesquisa e toma decisões, mapeando todo o seu percurso até a fase da compra.",
+      "callToActionMode": "",
+      "callToActionText": "Análise da jornada",
+      "callToActionUrl": "/sale/d",
+      "textAlignment": "center",
+      "textPosition": "right",
+      "blockClass": "CTA--fases"
+    }
+  },
+  "info-card#implementacao": {
+    "props": {
+      "isFullModeStyle": false,
+      "imageUrl": "https://viverdeblog.com/wp-content/uploads/2017/08/plano-de-marketing-001.png",
+      "headline": "IMPLEMENTAÇÃO DAS ESTRATÉGIAS",
+      "subhead": "Com esses dados em mãos, nós atraímos prospects qualificados, oferecemos contéudo relevante para convertê-los em leads, nos relacionamos para transformá-los em oportunidades e encantamos para torná-los clientes fiéis.",
+      "callToActionMode": "",
+      "callToActionText": "Utilização das informações",
+      "callToActionUrl": "/sale/d",
+      "textAlignment": "center",
+      "textPosition": "left",
+      "blockClass": "CTA--fases"
     }
   }
 }
