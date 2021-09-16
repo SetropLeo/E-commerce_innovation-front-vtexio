@@ -57,7 +57,7 @@
   },
   "rich-text#third-description-phone": {
     "props": {
-      "text": "Essa é uma área responsável por cuidar do orçamento do cliente e, também, definir  os melhores canais para que seja feita a divulgação de uma campanha de marketing, peça ou anúncio.",
+      "text": "*Essa é uma área responsável por cuidar do orçamento do cliente e, também, definir  os melhores canais para que seja feita a divulgação de uma campanha de marketing, peça ou anúncio.",
       "textPosition": "CENTER",
       "textAlignment": "CENTER"
     }
@@ -76,6 +76,7 @@
       }
     }
   },
+
   "image#brand1": {
     "props": {
       "src": "https://thatto.com.br/wp-content/uploads/2019/06/tudo-que-nao-te-contaram-sobre-marketing_digital-1-1280x720.jpg"
@@ -96,13 +97,174 @@
       "src": "https://jobcontent.com.br/wp-content/uploads/2018/10/Ferramentas-de-Marketing-Digital-e-suas-integracoes-1280x720.jpg"
     }
   },
+
+  "flex-layout.row#row1": {
+    "props": {
+      "preserveLayoutOnMobile": true
+    },
+    "children": [
+      "flex-layout.col#11",
+      "flex-layout.col#12",
+      "flex-layout.col#13"
+    ]
+  },
+
+  "flex-layout.row#row2": {
+    "props": {
+      "preserveLayoutOnMobile": true
+    },
+    "children": [
+      "flex-layout.col#21",
+      "flex-layout.col#22",
+      "flex-layout.col#23"
+    ]
+  },
+
+  "flex-layout.row#row3": {
+    "props": {
+      "preserveLayoutOnMobile": true
+    },
+    "children": [
+      "flex-layout.col#31",
+      "flex-layout.col#32",
+      "flex-layout.col#33"
+    ]
+  },
+
+  "flex-layout.col#11": {
+    "props": {
+      "border": "all",
+      "borderWidth": 1
+    },
+    "children": ["rich-text#11"]
+  },
+
+  "flex-layout.col#12": {
+    "props": {
+      "border": "all",
+      "borderWidth": 1
+    },
+    "children": ["rich-text#12"]
+  },
+
+  "flex-layout.col#13": {
+    "props": {
+      "border": "all",
+      "borderWidth": 1
+    },
+    "children": ["rich-text#13"]
+  },
+
+  "flex-layout.col#21": {
+    "props": {
+      "border": "all",
+      "borderWidth": 1
+    },
+    "children": ["rich-text#21"]
+  },
+
+  "flex-layout.col#22": {
+    "props": {
+      "border": "all",
+      "borderWidth": 1
+    },
+    "children": ["rich-text#22"]
+  },
+
+  "flex-layout.col#23": {
+    "props": {
+      "border": "all",
+      "borderWidth": 1
+    },
+    "children": ["rich-text#23"]
+  },
+
+  "flex-layout.col#31": {
+    "props": {
+      "border": "all",
+      "borderWidth": 1
+    },
+    "children": ["rich-text#31"]
+  },
+
+  "flex-layout.col#32": {
+    "props": {
+      "border": "all",
+      "borderWidth": 1
+    },
+    "children": ["rich-text#32"]
+  },
+
+  "flex-layout.col#33": {
+    "props": {
+      "border": "all",
+      "borderWidth": 1
+    },
+    "children": ["rich-text#33"]
+  },
+
+  "rich-text#11": {
+    "props": {
+      "text": "exemplo1"
+    }
+  },
+  "rich-text#12": {
+    "props": {
+      "text": "exemplo2"
+    }
+  },
+  "rich-text#13": {
+    "props": {
+      "text": "exemplo3"
+    }
+  },
+
+  "rich-text#21": {
+    "props": {
+      "text": "exemplo4"
+    }
+  },
+  "rich-text#22": {
+    "props": {
+      "text": "exemplo5"
+    }
+  },
+  "rich-text#23": {
+    "props": {
+      "text": "exemplo6"
+    }
+  },
+
+  "rich-text#31": {
+    "props": {
+      "text": "exemplo7"
+    }
+  },
+  "rich-text#32": {
+    "props": {
+      "text": "exemplo8"
+    }
+  },
+  "rich-text#33": {
+    "props": {
+      "text": "exemplo9"
+    }
+  },
+
   "flex-layout.row#solutions1-grid-phone": {
-    "children": ["rich-text#solution1", "rich-text#solution2", "rich-text#solution3", "rich-text#solution4", "rich-text#solution5" ],
+    "children": [
+      "rich-text#solution1",
+      "rich-text#solution2",
+      "rich-text#solution3",
+      "rich-text#solution4",
+      "rich-text#solution5"
+    ],
     "props": {
       "marginTop": 3,
       "border": "all"
     }
-  }, 
+  },
+
   "rich-text#solution1": {
     "props": {
       "text": "AUTOMAÇÃO DE MARKETING",
@@ -113,7 +275,7 @@
   },
   "rich-text#solution2": {
     "props": {
-      "text": "AUTOMAÇÃO",
+      "text": "PRODUÇÃO DE CONTEÚDO",
       "textPosition": "CENTER",
       "textAlignment": "CENTER"
     }
@@ -139,6 +301,7 @@
       "textAlignment": "CENTER"
     }
   },
+
   "image#about-right-phone": {
     "props": {
       "src": "https://images.squarespace-cdn.com/content/v1/5cf68a202bff5400011e5737/1561587420373-LWFIBVEIFLNJ7LOBGFBU/contact-tonya-dalton-website-book-speaking.jpg?format=2500w",

@@ -6,7 +6,6 @@
     "children": [
       "menu-item#news",
       "menu-item#blackfriday",
-      "menu-item#sale",
       "menu-item#personalization"
     ]
   },
@@ -37,21 +36,6 @@
         "noFollow": false,
         "tagTitle": "BlackFriday",
         "text": "Black Friday"
-      }
-    }
-  },
-  "menu-item#sale": {
-    "props": {
-      "id": "menu-item-sale",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": false,
-        "tagTitle": "Sale",
-        "text": "Sale"
       }
     }
   },
@@ -93,7 +77,7 @@
         "href": "/decoration/smartphones",
         "noFollow": true,
         "tagTitle": "Smartphones",
-        "text": "Smartphones"
+        "text": "Como trabalhamos?"
       }
     }
   },
@@ -109,7 +93,7 @@
         "href": "/decoration/videogames",
         "noFollow": true,
         "tagTitle": "Videogames",
-        "text": "Videogames"
+        "text": "Quem somos?"
       }
     }
   },
@@ -125,7 +109,7 @@
         "href": "/decoration/tvs",
         "noFollow": true,
         "tagTitle": "TVs",
-        "text": "TVs"
+        "text": "Soluções oferecidas"
       }
     }
   },
@@ -198,7 +182,6 @@
       "menu-item#shorts",
       "menu-item#tank-tops",
       "menu-item#shirts",
-      "menu-item#sweatshirt",
       "menu-item#cropped"
     ]
   },
@@ -209,8 +192,7 @@
     },
     "children": [
       "menu-item#clothing-mobile",
-      "menu-item#decoration-mobile",
-      "menu-item#sale-mobile"
+      "menu-item#decoration-mobile"
     ]
   },
 
@@ -225,7 +207,7 @@
         "href": "/clothing/d",
         "noFollow": true,
         "tagTitle": "Clothing",
-        "text": "Clothing"
+        "text": "Marketing Digital"
       }
     },
     "blocks": ["vtex.menu@2.x:submenu.accordion#clothing"]
@@ -239,10 +221,9 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#shorts",
       "menu-item#tank-tops",
+      "menu-item#shorts",
       "menu-item#shirts",
-      "menu-item#sweatshirt",
       "menu-item#cropped"
     ]
   },
@@ -251,7 +232,7 @@
     "props": {
       "itemProps": {
         "tagTitle": "Decoration",
-        "text": "Decoration"
+        "text": "Sobre nós"
       }
     },
     "blocks": ["vtex.menu@2.x:submenu.accordion#decoration"]
@@ -265,32 +246,8 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#smartphones",
       "menu-item#videogames",
-      "menu-item#tvs"
-    ]
-  },
-
-  "menu-item#sale-mobile": {
-    "props": {
-      "itemProps": {
-        "tagTitle": "Sale",
-        "text": "Sale"
-      }
-    },
-    "blocks": ["vtex.menu@2.x:submenu.accordion#sale"]
-  },
-  "vtex.menu@2.x:submenu.accordion#sale": {
-    "children": ["vtex.menu@2.x:menu#footer-sale-mobile"]
-  },
-
-  "vtex.menu@2.x:menu#footer-sale-mobile": {
-    "props": {
-      "orientation": "vertical"
-    },
-    "children": [
       "menu-item#smartphones",
-      "menu-item#videogames",
       "menu-item#tvs"
     ]
   },
@@ -306,7 +263,7 @@
         "href": "/clothing/d",
         "noFollow": true,
         "tagTitle": "Clothing",
-        "text": "Clothing"
+        "text": "Marketing Digital"
       }
     }
   },
@@ -322,7 +279,7 @@
         "href": "/clothing/shorts",
         "noFollow": false,
         "tagTitle": "Shorts",
-        "text": "Shorts"
+        "text": "Como funciona?"
       }
     }
   },
@@ -338,7 +295,7 @@
         "href": "/clothing/tank-tops",
         "noFollow": false,
         "tagTitle": "Tank tops",
-        "text": "Tank tops"
+        "text": "O que é?"
       }
     }
   },
@@ -354,23 +311,7 @@
         "href": "/clothing/shirts",
         "noFollow": false,
         "tagTitle": "Shirts",
-        "text": "Shirts"
-      }
-    }
-  },
-
-  "menu-item#sweatshirt": {
-    "props": {
-      "id": "menu-item-sweat-shirts",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/clothing/sweatshirt",
-        "noFollow": false,
-        "tagTitle": "Sweatshirt",
-        "text": "Sweatshirt"
+        "text": "Onde Utilizar?"
       }
     }
   },
@@ -386,7 +327,7 @@
         "href": "/clothing/cropped",
         "noFollow": false,
         "tagTitle": "Cropped",
-        "text": "Cropped"
+        "text": "Estratégias simples"
       }
     }
   }
