@@ -1,56 +1,149 @@
 {
   "responsive-layout.phone": {
-    "children": ["flex-layout.row#first-text", "info-card#first-CTA-phone", "rich-text#description-phone"]
+    "children": [
+      "image#marketing-digital-phone",
+      "info-card#first-CTA-phone",
+      "rich-text#first-title-phone",
+      "rich-text#first-description-phone",
+      "rich-text#second-description-phone",
+      "rich-text#third-description-phone",
+      "slider-layout#home-phone",
+      "flex-layout.row#solutions1-grid-phone",
+      "image#about-right-phone"
+    ]
   },
-  "flex-layout.row#first-promo": {
-    "children": ["info-card#first-promo-phone", "rich-text#title-phone"],
+  "image#marketing-digital-phone": {
     "props": {
-      "width": "100%"
-    }
-  },
-  "flex-layout.row#initial-phone": {
-    "children": ["rich-text#first-title-phone", "rich-text#first-content-phone"]
-  },
-  "rich-text#first-title-phone": {
-    "props": {
-      "text": "****obtenha MAIS<br>por MENOS<br>com SIMPLICIDADE****",
-      "textPosition": "center",
-      "textAlignmnet": "center"
-    }
-  },
-  "rich-text#first-content-phone": {
-    "props": {
-      "text": "Vamos fazer algo juntos?",
-      "textPosition": "center",
-      "textAlignmnet": "center"
+      "src": "https://www.divermidia.com.br/img/servicos/marketing_digital/mkt_digital.png",
+      "width": "100%",
+      "height": 150
     }
   },
   "info-card#first-CTA-phone": {
     "props": {
-      "subhead": "Vamos fazer algo juntos?",
+      "marginTop": 0,
+      "isFullModeStyle": false,
+      "textPosition": "center",
+      "imageUrl": "https://resultadosdigitais.com.br/wp-content/uploads/2019/04/Marketing-Digital.png",
+      "headline": "NOSSO NEGÓCIO É VENDER O SEU",
+      "subhead": "Obtenha MAIS <br>por MENOS <br>com SIMPLICIDADE",
       "callToActionText": "Quero saber mais!",
       "callToActionUrl": "https://tibia.com/",
+      "textAlignment": "center",
       "blockClass": "CTA"
     }
   },
-  "rich-text#title-phone": {
+  "rich-text#first-title-phone": {
     "props": {
+      "width": "100%",
       "text": "****BEM-VINDO AO FUTURO DA AUTOMAÇÃO DE MARKETING E VENDAS COM I.A.****",
-      "textPosition": "center",
-      "textAlignmnet": "center"
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER"
     }
   },
-  "rich-text#description-phone": {
+  "rich-text#first-description-phone": {
     "props": {
-      "text": "*Pare de desperdiçar horas no Google e Facebook em busca de oportunidades de otimização. A Tess analisa milhões de dados todos os dias para recomendar as melhores otimizações para você.*",
-      "textPosition": "center",
-      "textAlignmnet": "center"
+      "text": "Pare de desperdiçar horas no Google e Facebook em busca de oportunidades de otimização. Forneça informações objetivas e focadas na performance.",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER"
+    }
+  },
+  "rich-text#second-description-phone": {
+    "props": {
+      "text": "Para isso, é imprescindível que os profissionais de mídia tenham contato com diferentes tipos de mídias sociais para entender a melhor forma de agir.",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER"
+    }
+  },
+  "rich-text#third-description-phone": {
+    "props": {
+      "text": "Essa é uma área responsável por cuidar do orçamento do cliente e, também, definir  os melhores canais para que seja feita a divulgação de uma campanha de marketing, peça ou anúncio.",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER"
+    }
+  },
+  "slider-layout#home-phone": {
+    "children": [
+      "image#brand1",
+      "image#brand2",
+      "image#brand3",
+      "image#brand4"
+    ],
+    "props": {
+      "autoplay": {
+        "timeout": 2500,
+        "stopOnHover": true
+      }
+    }
+  },
+  "image#brand1": {
+    "props": {
+      "src": "https://thatto.com.br/wp-content/uploads/2019/06/tudo-que-nao-te-contaram-sobre-marketing_digital-1-1280x720.jpg"
+    }
+  },
+  "image#brand2": {
+    "props": {
+      "src": "https://www.agenciagrow.com.br/wp-content/uploads/2019/09/Como-aumentar-o-faturamento-com-o-Marketing-Digital-1280x720.jpg"
+    }
+  },
+  "image#brand3": {
+    "props": {
+      "src": "https://opetroleo.com.br/wp-content/uploads/2020/08/20-melhores-ferramentas-de-marketing-digital-para-experimentar-em-2020-a-menina-digital-1280x720.jpg"
+    }
+  },
+  "image#brand4": {
+    "props": {
+      "src": "https://jobcontent.com.br/wp-content/uploads/2018/10/Ferramentas-de-Marketing-Digital-e-suas-integracoes-1280x720.jpg"
+    }
+  },
+  "flex-layout.row#solutions1-grid-phone": {
+    "children": ["rich-text#solution1", "rich-text#solution2", "rich-text#solution3", "rich-text#solution4", "rich-text#solution5" ],
+    "props": {
+      "marginTop": 3,
+      "border": "all"
+    }
+  }, 
+  "rich-text#solution1": {
+    "props": {
+      "text": "AUTOMAÇÃO DE MARKETING",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "border": "all"
+    }
+  },
+  "rich-text#solution2": {
+    "props": {
+      "text": "AUTOMAÇÃO",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER"
+    }
+  },
+  "rich-text#solution3": {
+    "props": {
+      "text": "INBOUND MARKETING",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER"
+    }
+  },
+  "rich-text#solution4": {
+    "props": {
+      "text": "PLANEJAMENTO ESTRATÉGICO",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER"
+    }
+  },
+  "rich-text#solution5": {
+    "props": {
+      "text": "PRODUÇÃO DE CONTEÚDO",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER"
     }
   },
   "image#about-right-phone": {
     "props": {
-      "src": "http://williamsbarros.com.br/wp-content/uploads/2018/04/Unsplash-BANCOS-DE-IMAGENS-GR%C3%81TIS-PARA-VOC%C3%8A-UTILIZAR-EM-SEUS-ARTIGOS-AN%C3%9ANCIOS-E-POSTAGENS.jpg",
-      "maxWidth": "100%"
+      "src": "https://images.squarespace-cdn.com/content/v1/5cf68a202bff5400011e5737/1561587420373-LWFIBVEIFLNJ7LOBGFBU/contact-tonya-dalton-website-book-speaking.jpg?format=2500w",
+      "width": "100%",
+      "height": 250
     }
   }
 }

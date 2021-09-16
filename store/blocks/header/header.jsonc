@@ -29,7 +29,7 @@
   },
   "notification.bar#home": {
     "props": {
-      "content": "SELECTED ITEMS ON SALE! CHECK IT OUT!"
+      "content": "EVOLVE - AGÊNCIA DE MARKETING DIGITAL "
     }
   },
   "flex-layout.row#3-desktop": {
@@ -92,8 +92,8 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo.png",
-      "width": "180"
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNz_GE5osMcLYVHsrYN8J4epSZmRoH8M_2KNG2nyjK5hGqCKRxv-HyxUmF_z9JZnM-izw&usqp=CAU",
+      "width": "500"
     }
   },
   "header-layout.mobile": {
@@ -136,7 +136,7 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo-mobile.png",
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNz_GE5osMcLYVHsrYN8J4epSZmRoH8M_2KNG2nyjK5hGqCKRxv-HyxUmF_z9JZnM-izw&usqp=CAU",
       "width": "70"
     }
   }

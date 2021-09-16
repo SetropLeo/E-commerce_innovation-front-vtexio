@@ -9,9 +9,9 @@
     "props": {
       "marginTop": 0,
       "isFullModeStyle": true,
-      "textPosition": "right",
+      "textPosition": "center",
       "imageUrl": "https://www.divermidia.com.br/img/servicos/marketing_digital/mkt_digital.png",
-      "headline": "Obtenha MAIS por MENOS <br>com SIMPLICIDADE",
+      "headline": "Obtenha MAIS por MENOS com SIMPLICIDADE",
       "subhead": "Vamos fazer algo juntos?",
       "callToActionText": "Quero saber mais!",
       "callToActionUrl": "https://tibia.com/",
