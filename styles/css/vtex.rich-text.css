@@ -120,7 +120,7 @@
   font-weight: bold;
 }
 
-.wrapper--name-evolve {
+.wrapper--name-evolve-desktop {
   margin-left: 5px;
   color: #03034E;
   font-weight: regular;
@@ -132,4 +132,10 @@
   color: black;
   text-align: justify;
   margin-bottom: 40px;
+}
+
+.wrapper--name-evolve-phone {
+  margin-left: 25px;
+  color: #03034E;
+  font-weight: regular;
 }

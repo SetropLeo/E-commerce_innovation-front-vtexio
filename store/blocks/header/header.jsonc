@@ -53,7 +53,7 @@
     },
     "children": [
       "flex-layout.col#logo-desktop",
-      "rich-text#name",
+      "rich-text#name-desktop",
       "flex-layout.col#category-menu",
       "flex-layout.col#spacer",
       "search-bar",
@@ -83,7 +83,7 @@
     }
   },
 
-  "rich-text#name": {
+  "rich-text#name-desktop": {
     "props": {
       "text": "EVOLVE <br>MARKETING DIGITAL",
       "textPosition": "CENTER",
@@ -102,6 +102,7 @@
     "children": [
       "drawer",
       "logo#mobile",
+      "rich-text#name-phone",
       "flex-layout.col#spacer",
       "login",
       "minicart.v2"
@@ -134,6 +135,15 @@
       "href": "/",
       "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNz_GE5osMcLYVHsrYN8J4epSZmRoH8M_2KNG2nyjK5hGqCKRxv-HyxUmF_z9JZnM-izw&usqp=CAU",
       "width": "70"
+    }
+  },
+
+  "rich-text#name-phone": {
+    "props": {
+      "text": "EVOLVE <br>MARKETING DIGITAL",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "blockClass": "name-evolve-phone"
     }
   }
 }
