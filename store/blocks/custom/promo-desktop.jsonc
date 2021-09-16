@@ -1,46 +1,175 @@
 {
   "responsive-layout.desktop": {
     "children": [
-      "info-card#first-promo-desktop",
-      "flex-layout.row#about-desktop"
+      "image#marketing-digital-desktop",
+      "info-card#first-CTA-desktop",
+      "rich-text#first-title-desktop",
+      "rich-text#first-description-desktop",
+      "rich-text#second-description-desktop",
+      "rich-text#third-description-desktop",
+      "slider-layout#home-desktop",
+      "rich-text#second-title-desktop",
+      "flex-layout.row#solutions1-grid-desktop",
+      "image#about-right-desktop"
     ]
   },
-  "info-card#first-promo-desktop": {
+  "image#marketing-digital-desktop": {
+    "props": {
+      "src": "https://www.divermidia.com.br/img/servicos/marketing_digital/mkt_digital.png",
+      "width": "100%",
+      "height": 300
+    }
+  },
+  "info-card#first-CTA-desktop": {
     "props": {
       "marginTop": 0,
-      "isFullModeStyle": true,
+      "isFullModeStyle": false,
       "textPosition": "center",
-      "imageUrl": "https://www.divermidia.com.br/img/servicos/marketing_digital/mkt_digital.png",
-      "headline": "Obtenha MAIS por MENOS com SIMPLICIDADE",
-      "subhead": "Vamos fazer algo juntos?",
+      "imageUrl": "https://resultadosdigitais.com.br/wp-content/uploads/2019/04/Marketing-Digital.png",
+      "headline": "NOSSO NEGÓCIO É <br>VENDER O SEU",
+      "subhead": "Obtenha MAIS <br>por MENOS <br>com SIMPLICIDADE",
       "callToActionText": "Quero saber mais!",
       "callToActionUrl": "https://tibia.com/",
       "textAlignment": "center",
       "blockClass": "CTA"
     }
   },
-  "flex-layout.row#about-desktop": {
-    "children": ["flex-layout.col#about-desktop", "image#about-right-desktop"]
-  },
-  "flex-layout.col#about-desktop": {
-    "children": ["rich-text#title-desktop", "rich-text#description-desktop"]
-  },
-  "rich-text#title-desktop": {
+  "rich-text#first-title-desktop": {
     "props": {
-      "text": "****BEM-VINDO AO FUTURO DA AUTOMAÇÃO DE MARKETING E VENDAS COM I.A.****",
+      "width": "100%",
+      "text": "**BEM-VINDO AO FUTURO DA AUTOMAÇÃO DE MARKETING E VENDAS COM I.A.**",
       "textPosition": "CENTER",
-      "textAlignmnet": "CENTER"
+      "textAlignment": "CENTER",
+      "blockClass": "first-title"
     }
   },
-  "rich-text#description-desktop": {
+  "rich-text#first-description-desktop": {
     "props": {
-      "text": "*Pare de desperdiçar horas no Google e Facebook em busca de oportunidades de otimização. A Tess analisa milhões de dados todos os dias para recomendar as melhores otimizações para você.*",
-      "textAlignmnet": "CENTER"
+      "text": "Marketing Digital é a promoção de produtos ou marcas por meio de mídias digitais. Ele é uma das principais maneiras que as empresas têm para se comunicar com o público de forma direta, personalizada e no momento certo. É por isso que o Marketing Digital é a principal forma de fazer e conceituar marketing nos dias de hoje.",
+      "textPosition": "CENTER",
+      "blockClass": "description"
     }
   },
+
+  "rich-text#second-description-desktop": {
+    "props": {
+      "text": "Para isso, é imprescindível que os profissionais de mídia tenham contato com diferentes tipos de mídias sociais para entender a melhor forma de agir. Essa é uma área responsável por cuidar do orçamento do cliente e, também, definir  os melhores canais para que seja feita a divulgação de uma campanha de marketing, peça ou anúncio. Usando canais digitais — como blogs, sites, motores de busca, mídias sociais, email e outros —, as empresas tentam solucionar dores e desejos de clientes e potenciais clientes.",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "blockClass": "description"
+    }
+  },
+
+  "rich-text#third-description-desktop": {
+    "props": {
+      "text": "Quando falamos de aumentar nossa rede, fortalecer a nossa marca e realizar melhores vendas, todos esses são objetivos em que o Marketing Digital é uma importante ferramenta para alcançá-los. Portanto, pare de desperdiçar horas no Google e Facebook em busca de oportunidades de otimização. Forneça informações objetivas e focadas na performance de forma a observar e testar a efetividade das nossas ações ",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "blockClass": "description"
+    }
+  },
+
+  "slider-layout#home-desktop": {
+    "children": [
+      "image#brand1-desktop",
+      "image#brand2-desktop",
+      "image#brand3-desktop",
+      "image#brand4-desktop"
+    ],
+    "props": {
+      "autoplay": {
+        "timeout": 2500,
+        "stopOnHover": true
+      }
+    }
+  },
+
+  "rich-text#second-title-desktop": {
+    "props": {
+      "text": "NOSSOS SERVIÇOS",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "blockClass": "second-title"
+    }
+  },
+
+  "image#brand1-desktop": {
+    "props": {
+      "src": "https://thatto.com.br/wp-content/uploads/2019/06/tudo-que-nao-te-contaram-sobre-marketing_digital-1-1280x720.jpg"
+    }
+  },
+  "image#brand2-desktop": {
+    "props": {
+      "src": "https://www.agenciagrow.com.br/wp-content/uploads/2019/09/Como-aumentar-o-faturamento-com-o-Marketing-Digital-1280x720.jpg"
+    }
+  },
+  "image#brand3-desktop": {
+    "props": {
+      "src": "https://opetroleo.com.br/wp-content/uploads/2020/08/20-melhores-ferramentas-de-marketing-digital-para-experimentar-em-2020-a-menina-digital-1280x720.jpg"
+    }
+  },
+  "image#brand4-desktop": {
+    "props": {
+      "src": "https://jobcontent.com.br/wp-content/uploads/2018/10/Ferramentas-de-Marketing-Digital-e-suas-integracoes-1280x720.jpg"
+    }
+  },
+
+  "flex-layout.row#solutions1-grid-desktop": {
+    "children": [
+      "rich-text#solution1-desktop",
+      "rich-text#solution2-desktop",
+      "rich-text#solution3-desktop",
+      "rich-text#solution4-desktop",
+      "rich-text#solution5-desktop"
+    ],
+    "props": {
+      "marginTop": 3,
+      "border": "all"
+    }
+  },
+
+  "rich-text#solution1-desktop": {
+    "props": {
+      "text": "AUTOMAÇÃO DE MARKETING",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "border": "all"
+    }
+  },
+  "rich-text#solution2-desktop": {
+    "props": {
+      "text": "GESTÃO DE MÍDIAS",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER"
+    }
+  },
+  "rich-text#solution3-desktop": {
+    "props": {
+      "text": "INBOUND MARKETING",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER"
+    }
+  },
+  "rich-text#solution4-desktop": {
+    "props": {
+      "text": "PLANEJAMENTO ESTRATÉGICO",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER"
+    }
+  },
+  "rich-text#solution5-desktop": {
+    "props": {
+      "text": "PRODUÇÃO DE CONTEÚDO",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER"
+    }
+  },
+
   "image#about-right-desktop": {
     "props": {
-      "src": "http://williamsbarros.com.br/wp-content/uploads/2018/04/Unsplash-BANCOS-DE-IMAGENS-GR%C3%81TIS-PARA-VOC%C3%8A-UTILIZAR-EM-SEUS-ARTIGOS-AN%C3%9ANCIOS-E-POSTAGENS.jpg"
+      "src": "https://images.squarespace-cdn.com/content/v1/5cf68a202bff5400011e5737/1561587420373-LWFIBVEIFLNJ7LOBGFBU/contact-tonya-dalton-website-book-speaking.jpg?format=2500w",
+      "width": "100%",
+      "height": 250
     }
   }
 }

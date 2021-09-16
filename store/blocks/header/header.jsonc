@@ -8,7 +8,6 @@
   "header-layout.desktop": {
     "children": [
       "flex-layout.row#1-desktop",
-      "flex-layout.row#2-desktop",
       "flex-layout.row#3-desktop",
       "sticky-layout#4-desktop"
     ]
@@ -20,18 +19,6 @@
       "fullWidth": true
     }
   },
-
-  "flex-layout.row#2-desktop": {
-    "children": ["notification.bar#home"],
-    "props": {
-      "fullWidth": "true"
-    }
-  },
-  "notification.bar#home": {
-    "props": {
-      "content": "EVOLVE - AGÊNCIA DE MARKETING DIGITAL "
-    }
-  },
   "flex-layout.row#3-desktop": {
     "props": {
       "blockClass": "menu-link",
@@ -41,9 +28,7 @@
       "fullWidth": true
     },
     "children": [
-      "vtex.menu@2.x:menu#websites",
-      "flex-layout.col#spacer",
-      "vtex.menu@2.x:menu#institutional"
+      "flex-layout.col#spacer"
     ]
   },
   "flex-layout.col#spacer": {
@@ -68,6 +53,7 @@
     },
     "children": [
       "flex-layout.col#logo-desktop",
+      "rich-text#name",
       "flex-layout.col#category-menu",
       "flex-layout.col#spacer",
       "search-bar",
@@ -93,9 +79,19 @@
       "title": "Logo",
       "href": "/",
       "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNz_GE5osMcLYVHsrYN8J4epSZmRoH8M_2KNG2nyjK5hGqCKRxv-HyxUmF_z9JZnM-izw&usqp=CAU",
-      "width": "500"
+      "width": "100"
     }
   },
+
+  "rich-text#name": {
+    "props": {
+      "text": "EVOLVE <br>MARKETING DIGITAL",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "blockClass": "name-evolve"
+    }
+  },
+
   "header-layout.mobile": {
     "children": ["sticky-layout#1-mobile"]
   },

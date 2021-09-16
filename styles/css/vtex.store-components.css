@@ -111,3 +111,26 @@
   font-weight: bold;
   font-size: 30px;
 }
+
+.infoCardHeadline--CTA {
+  color: black;
+  font-weight: bold;
+}
+
+.infoCardSubhead--CTA {
+  color: black;
+}
+
+.infoCardCallActionContainer--CTA {
+  border: 1px solid black;
+}
+
+.infoCardCallActionContainer--CTA:hover {
+  color: white;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.searchBarContainer {
+  margin-top: 20px;
+}
