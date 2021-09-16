@@ -115,7 +115,7 @@
 }
 
 .container--second-title {
-  margin-top: 20px;
+  margin-top: 40px;
   color: black;
   font-weight: bold;
 }
@@ -138,4 +138,10 @@
   margin-left: 25px;
   color: #03034E;
   font-weight: regular;
+}
+
+.wrapper--second-title-phone {
+  margin-top: 40px;
+  color: black;
+  font-weight: bold;
 }
